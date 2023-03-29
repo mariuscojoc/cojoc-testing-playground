@@ -1,2 +1,2 @@
 # cojoc-testing-playground
-A website to exercise frontend test automation.
+A project to train on writing frontend test automation.
