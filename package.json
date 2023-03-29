@@ -1,0 +1,21 @@
+{
+  "name": "cojoc-testing-playground",
+  "version": "1.0.0",
+  "description": "A website to exercise frontend test automation.",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mariuscojoc/cojoc-testing-playground.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mariuscojoc/cojoc-testing-playground/issues"
+  },
+  "homepage": "https://github.com/mariuscojoc/cojoc-testing-playground#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.32.1"
+  }
+}
