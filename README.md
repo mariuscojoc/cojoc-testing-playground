@@ -51,8 +51,6 @@ From here on any E2E tests that require log in of a user will be using the store
 Note: whenever there's a change to the user credentials, such as a new account name or password, or a different account, make sure to run the auth.setup.ts at least once, this way the json files will be updated with the new stored sessions.
 
 
-
-
 ## Running Tests
 
 Playwright extensive docummentation on running tests available here: https://playwright.dev/docs/running-tests
@@ -75,3 +73,9 @@ This extension adds a convenient play button next to each test.describe or test 
 
 ![App Screenshot](https://i.imgur.com/2FoSxwB.png)
 
+
+## Tests folder
+
+All the e2e tests are to be created and found inside the folder titled "playwright-e2e-tests".
+
+They are organized per general feature, such as store tests, user profile tests,  community hub etc
