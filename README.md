@@ -1,7 +1,7 @@
 
 # Cojoc's Testing Playground
 
-This repository is meant to track my work of automating the Steam store using Playwright with TypeScript. At the same time this serves as part of my personal portfolio where I demonstrate my knowledge of automating E2E FrontEnd tests.
+This repository is meant to track my work of automating the Steam store (https://store.steampowered.com/) using Playwright with TypeScript. At the same time this serves as part of my personal portfolio where I demonstrate my knowledge of automating E2E FrontEnd tests.
 ## 🚀 About Me
 Hi 👋, I'm Cojoc.
 
