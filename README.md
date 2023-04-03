@@ -1,7 +1,7 @@
 
 # Cojoc's Testing Playground
 
-This repository is meant to track my work of automating the Steam store using Playwright with TypeScript. At the same time this serves as part of my personal portofolio where I demonstrate my knowledge of automating E2E FrontEnd tests.
+This repository is meant to track my work of automating the Steam store using Playwright with TypeScript. At the same time this serves as part of my personal portfolio where I demonstrate my knowledge of automating E2E FrontEnd tests.
 ## 🚀 About Me
 Hi 👋, I'm Cojoc.
 
@@ -22,11 +22,11 @@ I'm a passionate QA Engineer that likes to play around with automating testing.
 
 6. Select Yes when prompted to install Playwright browsers.
 
-7. Select No when asking to overide the existing playwright.config.ts
+7. Select "No" when asking to override the existing playwright.config.ts
 
-8. Select No when asking to overide the existing playwright.yml
+8. Select "No" when asking to override the existing playwright.yml
 
-9. Delete the example.spec.ts created by default from the Playwright instalation.
+9. Delete the example.spec.ts created by default from the Playwright installation.
 
 
 ## Environment Variables
@@ -53,7 +53,7 @@ Note: whenever there's a change to the user credentials, such as a new account n
 
 ## Running Tests
 
-Playwright extensive docummentation on running tests available here: https://playwright.dev/docs/running-tests
+Playwright extensive documentation on running tests available here: https://playwright.dev/docs/running-tests
 
 To run all the tests in your project, run the following command:
 
@@ -78,4 +78,4 @@ This extension adds a convenient play button next to each test.describe or test 
 
 All the e2e tests are to be created and found inside the folder titled "playwright-e2e-tests".
 
-They are organized per general feature, such as store tests, user profile tests,  community hub etc
+They are organized per general feature, such as store tests, user profile tests, community hub etc
