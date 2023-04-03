@@ -35,6 +35,7 @@ To avoid using a log in step in every test, you will need to generate a session 
 
 1. For this go to "auth.setup.ts" and uncomment lines 13-14 and 18-19.
 2. Replace username and password with your own testing accounts as per required specifications: one steam account that has Steam Guard deactivated and another account with it activated.
+
     2. Alternative: create a user_credentials.ts file where you include the variables for the accounts and afterwards add user_credentials.ts to your gitignore.
 3. Create a folder "playwright/.auth" in main project root.
 4. Execute the setup file with command line:
