@@ -20,7 +20,7 @@ I'm a passionate QA Engineer that likes to play around with automating testing.
 
 5. Select "Yes" when asked to add GitHub Actions workflow.
 
-6. Select "Yes"" when prompted to install Playwright browsers.
+6. Select "Yes" when prompted to install Playwright browsers.
 
 7. Select "No" when asking to override the existing playwright.config.ts
 
