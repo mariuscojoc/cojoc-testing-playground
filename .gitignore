@@ -5,3 +5,5 @@ node_modules/
 /test-results/
 /playwright-report/
 /playwright/.cache/
+/playwright-e2e-tests/user_credentials.ts
+/playwright/.auth
