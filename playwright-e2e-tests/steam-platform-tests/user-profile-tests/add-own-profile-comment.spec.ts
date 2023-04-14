@@ -16,7 +16,7 @@ test.describe('Add a comment on own profile as user without steam guard', () => 
 
     // Leave a comment on your own user profile currently logged in
     await page.getByPlaceholder('Add a comment').click();
-    await page.getByPlaceholder('Add a comment').fill('Hi this is a comment on my own profile (without steam guard).');
+    await page.getByPlaceholder('Add a comment').fill('Hi this is a comment on my own profile without steam guard active.');
     await page.locator('.no_header').click();
     await page.getByText('Post Comment').click();
 
@@ -43,12 +43,16 @@ test.describe('Add a comment on own profile as user with steam guard active', ()
 
     // Leave a comment on your own user profile currently logged in
     await page.getByPlaceholder('Add a comment').click();
-    await page.getByPlaceholder('Add a comment').fill('Hi this is a comment on my own profile (steam guard active).');
+    await page.getByPlaceholder('Add a comment').fill('Hello world');
     await page.locator('.no_header').click();
     await page.getByText('Post Comment').click();
 
     // Check that comment has been made and appears on user profile
-    await page.getByText('Hi this is a comment on my own profile (steam guard active).').isVisible();
+    await page.getByText('Hello world').isVisible();
+
+    const commentLocator = page.locator('#Hello world');
+    const commentId = await commentLocator.getAttribute('id');
+    console.log(commentId);
 
     // Delete comment and check it is removed:
     // Still banging my head against this one, the comments have unique ids in every instance
